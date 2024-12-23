@@ -1,5 +1,7 @@
 import { useRoutes } from "react-router-dom";
 import "@mantine/core/styles.css";
+import "@mantine/charts/styles.css";
+
 import { createTheme, MantineProvider } from "@mantine/core";
 import DashBoard from "./pages/admin/Dashboard/DashBoard";
 import Product from "./pages/admin/Product/Product";

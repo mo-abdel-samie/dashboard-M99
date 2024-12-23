@@ -12,7 +12,7 @@ export default function AdminLayout({ children }) {
         <Box w={isOpen ? "20%" : "0%"} style={{ transition: "all .4s" }}>
           <SideBar />
         </Box>
-        <Box mih={"100vh"} bg={"orange"} style={{ flex: "1 1 auto" }}>
+        <Box mih={"100vh"} bg={"#f4f7fe"} style={{ flex: "1 1 auto" }}>
             <AdminNavBar setIsOpen={setIsOpen} value={isOpen} />
             <main>{children}</main>
         </Box>
